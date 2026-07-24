@@ -1,0 +1,20 @@
+{
+  "extensionName": {
+    "message": "WXT 拡張機能テンプレート"
+  },
+  "extensionDescription": {
+    "message": "本番対応のブラウザ拡張テンプレート"
+  },
+  "popupDescription": {
+    "message": "次の拡張機能のためのクリーンな出発点です。"
+  },
+  "enable": {
+    "message": "有効化"
+  },
+  "disable": {
+    "message": "無効化"
+  },
+  "settings": {
+    "message": "設定"
+  }
+}

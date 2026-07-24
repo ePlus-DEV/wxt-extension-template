@@ -1,0 +1,20 @@
+{
+  "extensionName": {
+    "message": "Mẫu tiện ích WXT"
+  },
+  "extensionDescription": {
+    "message": "Mẫu tiện ích trình duyệt sẵn sàng cho production"
+  },
+  "popupDescription": {
+    "message": "Điểm khởi đầu gọn gàng cho tiện ích tiếp theo."
+  },
+  "enable": {
+    "message": "Bật"
+  },
+  "disable": {
+    "message": "Tắt"
+  },
+  "settings": {
+    "message": "Cài đặt"
+  }
+}

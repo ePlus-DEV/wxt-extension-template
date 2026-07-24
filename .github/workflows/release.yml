@@ -1,0 +1,20 @@
+name: Release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 24, cache: yarn }
+      - run: corepack enable
+      - run: yarn install
+      - run: yarn zip:all
+      - uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          files: .output/*.zip

@@ -1,0 +1,9 @@
+node_modules/
+.yarn/cache/
+.yarn/install-state.gz
+.wxt/
+.output/
+coverage/
+.env*
+!.env.example
+.DS_Store

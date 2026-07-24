@@ -1,0 +1,20 @@
+{
+  "extensionName": {
+    "message": "WXT Extension Template"
+  },
+  "extensionDescription": {
+    "message": "Production-ready browser extension template"
+  },
+  "popupDescription": {
+    "message": "A clean starting point for your next extension."
+  },
+  "enable": {
+    "message": "Enable"
+  },
+  "disable": {
+    "message": "Disable"
+  },
+  "settings": {
+    "message": "Settings"
+  }
+}
